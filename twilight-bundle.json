@@ -16,7 +16,7 @@
             "icon": "sicon-image",
             "name": "aoss-hero",
             "key": "0424897f-7c2b-5ec2-ac63-88bcf88a7c40",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-hero.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-hero.png",
             "fields": [
                 {
                     "id": "kicker",
@@ -126,7 +126,7 @@
             "icon": "sicon-layout-grid-rearrange",
             "name": "aoss-services",
             "key": "a2a6709f-9e1d-525e-8244-6c2d57881712",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-services.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-services.png",
             "fields": [
                 {
                     "id": "title",
@@ -293,7 +293,7 @@
             "icon": "sicon-star",
             "name": "aoss-features",
             "key": "cee85e2a-1e53-55e0-9926-31fb39048335",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-features.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-features.png",
             "fields": [
                 {
                     "id": "title",
@@ -378,7 +378,7 @@
             "icon": "sicon-user",
             "name": "aoss-talent",
             "key": "a3e0fac4-aec9-5100-b53b-4aacf2aaa1a1",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-talent.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-talent.png",
             "fields": [
                 {
                     "id": "title",
@@ -474,7 +474,7 @@
             "icon": "sicon-list",
             "name": "aoss-process",
             "key": "9912c770-acb1-5d89-8a1f-94ec0eb27bf8",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-process.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-process.png",
             "fields": [
                 {
                     "id": "title",
@@ -562,7 +562,7 @@
             "icon": "sicon-users",
             "name": "aoss-audiences",
             "key": "afc82f11-0a9f-58f5-8678-6d3241520123",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-audiences.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-audiences.png",
             "fields": [
                 {
                     "id": "title",
@@ -640,7 +640,7 @@
             "icon": "sicon-help-circle",
             "name": "aoss-faq",
             "key": "1f147ec1-ccf9-570e-a131-d7098956ec28",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-faq.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-faq.png",
             "fields": [
                 {
                     "id": "title",
@@ -729,7 +729,7 @@
             "icon": "sicon-megaphone",
             "name": "aoss-cta",
             "key": "a6276dc2-479a-5854-893d-9c3ae9327949",
-            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-cta.png",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/main/previews/aoss-cta.png",
             "fields": [
                 {
                     "id": "title",
