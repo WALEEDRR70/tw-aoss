@@ -218,3 +218,25 @@ Run `pnpm run dev` to start the development server. This will:
 ## License
 
 MIT
+
+## AOSS MEDIA components
+
+| Component | What it shows |
+|--|--|
+| `aoss-hero` | Cinematic black hero: big English headline, Arabic line, animated orbits, two buttons |
+| `aoss-services` | Numbered services grid; cards without a link open a WhatsApp quote |
+| `aoss-features` | "Why AOSS" cards |
+| `aoss-talent` | Talent profiles (each one a product): photo, name, hourly price, WhatsApp booking |
+| `aoss-process` | Work steps (Brief → Concept → Production → Delivery) |
+| `aoss-audiences` | "Who we serve" tags |
+| `aoss-faq` | FAQ accordion |
+| `aoss-cta` | Closing call to action |
+
+Shared brand tokens and helpers live in `src/shared/aoss.ts`. Fonts: IBM Plex Sans Arabic + Space Grotesk.
+Editor thumbnails are in `previews/`.
+
+```bash
+pnpm install
+pnpm dev     # local demo of every component
+pnpm build
+```

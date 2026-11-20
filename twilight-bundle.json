@@ -1,14 +1,796 @@
 {
     "name": {
-        "ar": "\u0623\u0633\u0633",
+        "ar": "أسس",
         "en": "AOSS"
     },
     "description": {
-        "ar": "",
-        "en": ""
+        "ar": "عناصر سينمائية بالأبيض والأسود لمتاجر الخدمات الإعلامية: واجهة، خدمات، كوادر بسعر الساعة، خطوات العمل، أسئلة شائعة ودعوة ختامية.",
+        "en": "Cinematic black & white blocks for media-service stores: hero, services, hourly talent, process, FAQ and closing call to action."
     },
     "author_email": "info@aoss.media",
     "support_url": "https://aoss.shop",
     "repository": "https://github.com/WALEEDRR70/tw-aoss",
-    "components": []
+    "components": [
+        {
+            "title": "أسس | الواجهة السينمائية",
+            "icon": "sicon-image",
+            "name": "aoss-hero",
+            "key": "0424897f-7c2b-5ec2-ac63-88bcf88a7c40",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-hero.png",
+            "fields": [
+                {
+                    "id": "kicker",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "سطر صغير أعلى العنوان",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "سطر صغير أعلى العنوان",
+                    "maxLength": 60,
+                    "value": "AOSS MEDIA · Saudi Arabia"
+                },
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "العنوان الرئيسي (كبير)",
+                    "format": "text",
+                    "required": true,
+                    "multilanguage": true,
+                    "placeholder": "العنوان الرئيسي (كبير)",
+                    "maxLength": 80,
+                    "value": "Cinematic Media Production"
+                },
+                {
+                    "id": "subtitle",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "النص التوضيحي",
+                    "format": "textarea",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "النص التوضيحي",
+                    "maxLength": 300,
+                    "value": "حلول إعلامية متكاملة بإخراج سينمائي راقٍ: تصوير وإنتاج فيديو، تصميم هويات وبوثات، تنظيم فعاليات وتسويق رقمي.",
+                    "rows": 3
+                },
+                {
+                    "id": "background",
+                    "type": "string",
+                    "icon": "sicon-image-landscape",
+                    "format": "image",
+                    "label": "صورة خلفية (اختياري، 1600×800)",
+                    "required": false,
+                    "value": null
+                },
+                {
+                    "id": "show_orbits",
+                    "type": "boolean",
+                    "icon": "sicon-toggle-off",
+                    "format": "switch",
+                    "label": "إظهار المدارات المتحركة",
+                    "required": false,
+                    "value": true
+                },
+                {
+                    "id": "primary_text",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص الزر الرئيسي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "نص الزر الرئيسي",
+                    "maxLength": 40,
+                    "value": "اطلب خدمتك الآن"
+                },
+                {
+                    "id": "primary_url",
+                    "type": "string",
+                    "icon": "sicon-link",
+                    "label": "رابط الزر الرئيسي",
+                    "format": "url",
+                    "required": false,
+                    "placeholder": "https://aoss.shop/...",
+                    "description": "اتركه فارغًا لفتح محادثة واتساب",
+                    "value": null
+                },
+                {
+                    "id": "secondary_text",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص الزر الثانوي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "نص الزر الثانوي",
+                    "maxLength": 40,
+                    "value": "استعرض الخدمات"
+                },
+                {
+                    "id": "secondary_url",
+                    "type": "string",
+                    "icon": "sicon-link",
+                    "label": "رابط الزر الثانوي",
+                    "format": "url",
+                    "required": false,
+                    "placeholder": "https://aoss.shop/...",
+                    "description": "اتركه فارغًا لفتح محادثة واتساب",
+                    "value": null
+                }
+            ]
+        },
+        {
+            "title": "أسس | الخدمات",
+            "icon": "sicon-layout-grid-rearrange",
+            "name": "aoss-services",
+            "key": "a2a6709f-9e1d-525e-8244-6c2d57881712",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-services.png",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان القسم",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "عنوان القسم",
+                    "maxLength": 80,
+                    "value": "خدماتنا"
+                },
+                {
+                    "id": "kicker",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان صغير بالإنجليزي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "عنوان صغير بالإنجليزي",
+                    "maxLength": 40,
+                    "value": "Our Services"
+                },
+                {
+                    "id": "whatsapp",
+                    "type": "string",
+                    "icon": "sicon-whatsapp",
+                    "label": "رقم واتساب (دولي بدون +)",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "9665XXXXXXXX",
+                    "maxLength": 20,
+                    "value": "966578648331"
+                },
+                {
+                    "id": "items",
+                    "type": "collection",
+                    "format": "collection",
+                    "icon": "sicon-list-add",
+                    "label": "الخدمات",
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 20,
+                    "item_label": "خدمة",
+                    "fields": [
+                        {
+                            "id": "en",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "الاسم بالإنجليزي",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": false,
+                            "placeholder": "الاسم بالإنجليزي",
+                            "maxLength": 60,
+                            "value": null
+                        },
+                        {
+                            "id": "ar",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "الوصف بالعربي",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "الوصف بالعربي",
+                            "maxLength": 120,
+                            "value": null
+                        },
+                        {
+                            "id": "url",
+                            "type": "string",
+                            "icon": "sicon-link",
+                            "label": "الرابط (تصنيف أو منتج)",
+                            "format": "url",
+                            "required": false,
+                            "placeholder": "https://",
+                            "description": "اتركه فارغًا لفتح محادثة واتساب",
+                            "value": null
+                        },
+                        {
+                            "id": "label",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "نص صغير أسفل البطاقة",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "نص صغير أسفل البطاقة",
+                            "maxLength": 40,
+                            "value": null
+                        }
+                    ],
+                    "value": [
+                        {
+                            "en": "Events & Conferences",
+                            "ar": "تنظيم فعاليات ومؤتمرات وحفلات افتتاح",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Exhibitions & Booths",
+                            "ar": "تنظيم معارض وتصميم بوثات وأجنحة",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Crowd & Security",
+                            "ar": "إدارة الحشود والأمن",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Hospitality",
+                            "ar": "ضيافة فعاليات وقهوة سعودية",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Sound & Light",
+                            "ar": "تأجير معدات صوت وإضاءة",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Photo & Video",
+                            "ar": "تصوير منتجات وفعاليات وإنتاج فيديو",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Brand Identity",
+                            "ar": "تصميم هوية بصرية وشعارات",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Web & Apps",
+                            "ar": "تصميم مواقع وتطبيقات ومتاجر",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Digital Marketing",
+                            "ar": "تسويق إلكتروني ودعاية وإعلان",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        },
+                        {
+                            "en": "Extra Services",
+                            "ar": "هدايا دعائية وطباعة واستشارات",
+                            "url": null,
+                            "label": "اطلب عرض سعر ←"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "أسس | لماذا نحن",
+            "icon": "sicon-star",
+            "name": "aoss-features",
+            "key": "cee85e2a-1e53-55e0-9926-31fb39048335",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-features.png",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان القسم",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "عنوان القسم",
+                    "maxLength": 80,
+                    "value": "لماذا أسس ميديا"
+                },
+                {
+                    "id": "kicker",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان صغير بالإنجليزي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "عنوان صغير بالإنجليزي",
+                    "maxLength": 40,
+                    "value": "Why AOSS"
+                },
+                {
+                    "id": "items",
+                    "type": "collection",
+                    "format": "collection",
+                    "icon": "sicon-list-add",
+                    "label": "المزايا",
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 6,
+                    "item_label": "ميزة",
+                    "fields": [
+                        {
+                            "id": "title",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "العنوان",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "العنوان",
+                            "maxLength": 60,
+                            "value": null
+                        },
+                        {
+                            "id": "text",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "الوصف",
+                            "format": "textarea",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "الوصف",
+                            "maxLength": 200,
+                            "value": null,
+                            "rows": 3
+                        }
+                    ],
+                    "value": [
+                        {
+                            "title": "إخراج سينمائي",
+                            "text": "صورة واقعية بألوان سينمائية ومساحات هادئة تبرز علامتك."
+                        },
+                        {
+                            "title": "حل متكامل من مكان واحد",
+                            "text": "من الفكرة والتصميم إلى التصوير والتنفيذ الميداني والتسويق."
+                        },
+                        {
+                            "title": "عربي وإنجليزي",
+                            "text": "محتوى ثنائي اللغة يناسب جمهورك داخل المملكة وخارجها."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "أسس | الكوادر",
+            "icon": "sicon-user",
+            "name": "aoss-talent",
+            "key": "a3e0fac4-aec9-5100-b53b-4aacf2aaa1a1",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-talent.png",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان القسم",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "عنوان القسم",
+                    "maxLength": 80,
+                    "value": "كوادرنا"
+                },
+                {
+                    "id": "kicker",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان صغير بالإنجليزي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "عنوان صغير بالإنجليزي",
+                    "maxLength": 40,
+                    "value": "Talent"
+                },
+                {
+                    "id": "description",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نبذة",
+                    "format": "textarea",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "نبذة",
+                    "maxLength": 300,
+                    "value": "ميكب آرتست، مودلز، قهوجية، مضيفات وغيرهم — ملف لكل كادر بأعماله وسعر الساعة.",
+                    "rows": 3
+                },
+                {
+                    "id": "products",
+                    "type": "items",
+                    "icon": "sicon-user",
+                    "label": "الكوادر (منتجات)",
+                    "format": "dropdown-list",
+                    "source": "products",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": true,
+                    "options": [],
+                    "selected": [],
+                    "description": "كل كادر منتج مستقل: صورته، اسمه، وسعر الساعة"
+                },
+                {
+                    "id": "rate_suffix",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "لاحقة السعر",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "لاحقة السعر",
+                    "maxLength": 20,
+                    "value": "/ ساعة"
+                },
+                {
+                    "id": "book_text",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص زر الحجز",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "نص زر الحجز",
+                    "maxLength": 40,
+                    "value": "احجز عبر واتساب"
+                },
+                {
+                    "id": "whatsapp",
+                    "type": "string",
+                    "icon": "sicon-whatsapp",
+                    "label": "رقم واتساب (دولي بدون +)",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "9665XXXXXXXX",
+                    "maxLength": 20,
+                    "value": "966578648331"
+                }
+            ]
+        },
+        {
+            "title": "أسس | كيف نعمل",
+            "icon": "sicon-list",
+            "name": "aoss-process",
+            "key": "9912c770-acb1-5d89-8a1f-94ec0eb27bf8",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-process.png",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان القسم",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "عنوان القسم",
+                    "maxLength": 80,
+                    "value": "كيف نعمل"
+                },
+                {
+                    "id": "kicker",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان صغير بالإنجليزي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "عنوان صغير بالإنجليزي",
+                    "maxLength": 40,
+                    "value": "How We Work"
+                },
+                {
+                    "id": "steps",
+                    "type": "collection",
+                    "format": "collection",
+                    "icon": "sicon-list-add",
+                    "label": "الخطوات",
+                    "required": true,
+                    "minLength": 2,
+                    "maxLength": 6,
+                    "item_label": "خطوة",
+                    "fields": [
+                        {
+                            "id": "en",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "اسم الخطوة (إنجليزي)",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": false,
+                            "placeholder": "اسم الخطوة (إنجليزي)",
+                            "maxLength": 30,
+                            "value": null
+                        },
+                        {
+                            "id": "ar",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "الوصف",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "الوصف",
+                            "maxLength": 140,
+                            "value": null
+                        }
+                    ],
+                    "value": [
+                        {
+                            "en": "Brief",
+                            "ar": "نفهم احتياجك وأهدافك وجمهورك."
+                        },
+                        {
+                            "en": "Concept",
+                            "ar": "نقدّم الفكرة والخطة وعرض السعر."
+                        },
+                        {
+                            "en": "Production",
+                            "ar": "ننفّذ التصوير والتصميم والتجهيز بإخراج سينمائي."
+                        },
+                        {
+                            "en": "Delivery",
+                            "ar": "نسلّم الملفات النهائية ونتابع معك بعد التسليم."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "أسس | لمن نقدم خدماتنا",
+            "icon": "sicon-users",
+            "name": "aoss-audiences",
+            "key": "afc82f11-0a9f-58f5-8678-6d3241520123",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-audiences.png",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان القسم",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "عنوان القسم",
+                    "maxLength": 80,
+                    "value": "لمن نقدّم خدماتنا"
+                },
+                {
+                    "id": "kicker",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان صغير بالإنجليزي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "عنوان صغير بالإنجليزي",
+                    "maxLength": 40,
+                    "value": "Who We Serve"
+                },
+                {
+                    "id": "tags",
+                    "type": "collection",
+                    "format": "collection",
+                    "icon": "sicon-list-add",
+                    "label": "الفئات",
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 20,
+                    "item_label": "فئة",
+                    "fields": [
+                        {
+                            "id": "name",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "الاسم",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "الاسم",
+                            "maxLength": 60,
+                            "value": null
+                        }
+                    ],
+                    "value": [
+                        {
+                            "name": "الشركات والمؤسسات"
+                        },
+                        {
+                            "name": "الجهات الحكومية"
+                        },
+                        {
+                            "name": "المطاعم والمقاهي"
+                        },
+                        {
+                            "name": "المتاجر الإلكترونية"
+                        },
+                        {
+                            "name": "المعارض والفعاليات"
+                        },
+                        {
+                            "name": "العلامات التجارية الناشئة"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "أسس | الأسئلة الشائعة",
+            "icon": "sicon-help-circle",
+            "name": "aoss-faq",
+            "key": "1f147ec1-ccf9-570e-a131-d7098956ec28",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-faq.png",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان القسم",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "عنوان القسم",
+                    "maxLength": 80,
+                    "value": "الأسئلة الشائعة"
+                },
+                {
+                    "id": "kicker",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان صغير بالإنجليزي",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "عنوان صغير بالإنجليزي",
+                    "maxLength": 40,
+                    "value": "FAQ"
+                },
+                {
+                    "id": "items",
+                    "type": "collection",
+                    "format": "collection",
+                    "icon": "sicon-list-add",
+                    "label": "الأسئلة",
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 20,
+                    "item_label": "سؤال",
+                    "fields": [
+                        {
+                            "id": "q",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "السؤال",
+                            "format": "text",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "السؤال",
+                            "maxLength": 150,
+                            "value": null
+                        },
+                        {
+                            "id": "a",
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "الإجابة",
+                            "format": "textarea",
+                            "required": false,
+                            "multilanguage": true,
+                            "placeholder": "الإجابة",
+                            "maxLength": 600,
+                            "value": null,
+                            "rows": 3
+                        }
+                    ],
+                    "value": [
+                        {
+                            "q": "كيف أطلب الخدمة؟",
+                            "a": "أضف الخدمة إلى السلة وأكمل الطلب، أو تواصل معنا عبر واتساب لنفهم احتياجك أولًا."
+                        },
+                        {
+                            "q": "هل يمكن تخصيص الخدمة حسب مشروعي؟",
+                            "a": "نعم، تُصمَّم كل خدمة حسب أهدافك وهويتك، وبعض الخدمات تُسعَّر حسب حجم المشروع بعد دراسته."
+                        },
+                        {
+                            "q": "كيف أحجز كادرًا (ميكب آرتست، مودل، قهوجي...)؟",
+                            "a": "افتح ملف الكادر، اختر التاريخ وعدد الساعات، أو تواصل معنا عبر واتساب لتأكيد التوفر."
+                        },
+                        {
+                            "q": "هل تقدّمون المحتوى بالعربي والإنجليزي؟",
+                            "a": "نعم، نقدّم المحتوى والتصاميم باللغتين حسب جمهورك."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "أسس | دعوة ختامية",
+            "icon": "sicon-megaphone",
+            "name": "aoss-cta",
+            "key": "a6276dc2-479a-5854-893d-9c3ae9327949",
+            "image": "https://raw.githubusercontent.com/WALEEDRR70/tw-aoss/master/previews/aoss-cta.png",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "العنوان",
+                    "format": "text",
+                    "required": true,
+                    "multilanguage": true,
+                    "placeholder": "العنوان",
+                    "maxLength": 80,
+                    "value": "Let's Create Something Cinematic"
+                },
+                {
+                    "id": "text",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "النص",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "النص",
+                    "maxLength": 200,
+                    "value": "لنصنع لعلامتك حضورًا بصريًا يليق بها."
+                },
+                {
+                    "id": "button_text",
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص الزر",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": true,
+                    "placeholder": "نص الزر",
+                    "maxLength": 40,
+                    "value": "ابدأ مشروعك الآن"
+                },
+                {
+                    "id": "button_url",
+                    "type": "string",
+                    "icon": "sicon-link",
+                    "label": "رابط الزر",
+                    "format": "url",
+                    "required": false,
+                    "placeholder": "https://",
+                    "description": "اتركه فارغًا لفتح محادثة واتساب",
+                    "value": null
+                },
+                {
+                    "id": "whatsapp",
+                    "type": "string",
+                    "icon": "sicon-whatsapp",
+                    "label": "رقم واتساب (دولي بدون +)",
+                    "format": "text",
+                    "required": false,
+                    "multilanguage": false,
+                    "placeholder": "9665XXXXXXXX",
+                    "maxLength": 20,
+                    "value": "966578648331"
+                }
+            ]
+        }
+    ]
 }
