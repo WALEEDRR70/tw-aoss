@@ -176,7 +176,7 @@
                     "item_label": "خدمة",
                     "fields": [
                         {
-                            "id": "en",
+                            "id": "name",
                             "type": "string",
                             "icon": "sicon-format-text-alt",
                             "label": "الاسم بالإنجليزي",
@@ -188,7 +188,7 @@
                             "value": null
                         },
                         {
-                            "id": "ar",
+                            "id": "desc",
                             "type": "string",
                             "icon": "sicon-format-text-alt",
                             "label": "الوصف بالعربي",
@@ -225,62 +225,62 @@
                     ],
                     "value": [
                         {
-                            "en": "Events & Conferences",
-                            "ar": "تنظيم فعاليات ومؤتمرات وحفلات افتتاح",
+                            "name": "Events & Conferences",
+                            "desc": "تنظيم فعاليات ومؤتمرات وحفلات افتتاح",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Exhibitions & Booths",
-                            "ar": "تنظيم معارض وتصميم بوثات وأجنحة",
+                            "name": "Exhibitions & Booths",
+                            "desc": "تنظيم معارض وتصميم بوثات وأجنحة",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Crowd & Security",
-                            "ar": "إدارة الحشود والأمن",
+                            "name": "Crowd & Security",
+                            "desc": "إدارة الحشود والأمن",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Hospitality",
-                            "ar": "ضيافة فعاليات وقهوة سعودية",
+                            "name": "Hospitality",
+                            "desc": "ضيافة فعاليات وقهوة سعودية",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Sound & Light",
-                            "ar": "تأجير معدات صوت وإضاءة",
+                            "name": "Sound & Light",
+                            "desc": "تأجير معدات صوت وإضاءة",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Photo & Video",
-                            "ar": "تصوير منتجات وفعاليات وإنتاج فيديو",
+                            "name": "Photo & Video",
+                            "desc": "تصوير منتجات وفعاليات وإنتاج فيديو",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Brand Identity",
-                            "ar": "تصميم هوية بصرية وشعارات",
+                            "name": "Brand Identity",
+                            "desc": "تصميم هوية بصرية وشعارات",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Web & Apps",
-                            "ar": "تصميم مواقع وتطبيقات ومتاجر",
+                            "name": "Web & Apps",
+                            "desc": "تصميم مواقع وتطبيقات ومتاجر",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Digital Marketing",
-                            "ar": "تسويق إلكتروني ودعاية وإعلان",
+                            "name": "Digital Marketing",
+                            "desc": "تسويق إلكتروني ودعاية وإعلان",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         },
                         {
-                            "en": "Extra Services",
-                            "ar": "هدايا دعائية وطباعة واستشارات",
+                            "name": "Extra Services",
+                            "desc": "هدايا دعائية وطباعة واستشارات",
                             "url": null,
                             "label": "اطلب عرض سعر ←"
                         }
@@ -512,7 +512,7 @@
                     "item_label": "خطوة",
                     "fields": [
                         {
-                            "id": "en",
+                            "id": "name",
                             "type": "string",
                             "icon": "sicon-format-text-alt",
                             "label": "اسم الخطوة (إنجليزي)",
@@ -524,7 +524,7 @@
                             "value": null
                         },
                         {
-                            "id": "ar",
+                            "id": "desc",
                             "type": "string",
                             "icon": "sicon-format-text-alt",
                             "label": "الوصف",
@@ -538,20 +538,20 @@
                     ],
                     "value": [
                         {
-                            "en": "Brief",
-                            "ar": "نفهم احتياجك وأهدافك وجمهورك."
+                            "name": "Brief",
+                            "desc": "نفهم احتياجك وأهدافك وجمهورك."
                         },
                         {
-                            "en": "Concept",
-                            "ar": "نقدّم الفكرة والخطة وعرض السعر."
+                            "name": "Concept",
+                            "desc": "نقدّم الفكرة والخطة وعرض السعر."
                         },
                         {
-                            "en": "Production",
-                            "ar": "ننفّذ التصوير والتصميم والتجهيز بإخراج سينمائي."
+                            "name": "Production",
+                            "desc": "ننفّذ التصوير والتصميم والتجهيز بإخراج سينمائي."
                         },
                         {
-                            "en": "Delivery",
-                            "ar": "نسلّم الملفات النهائية ونتابع معك بعد التسليم."
+                            "name": "Delivery",
+                            "desc": "نسلّم الملفات النهائية ونتابع معك بعد التسليم."
                         }
                     ]
                 }

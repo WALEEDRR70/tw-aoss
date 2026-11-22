@@ -2,7 +2,7 @@ import { css, html, LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 import { base, ensureFonts, head, list, t, whatsappLink } from '../../shared/aoss';
 
-interface Service { en?: unknown; ar?: unknown; url?: string; label?: unknown }
+interface Service { name?: unknown; desc?: unknown; url?: string; label?: unknown }
 
 /** Numbered services grid. Cards without a link open a WhatsApp quote request. */
 export default class AossServices extends LitElement {
@@ -42,8 +42,8 @@ export default class AossServices extends LitElement {
         ${head(t(c.title), t(c.kicker))}
         <div class="grid">
           ${items.map((item, i) => {
-            const en = t(item.en);
-            const ar = t(item.ar);
+            const en = t(item.name);
+            const ar = t(item.desc);
             const href = t(item.url) || whatsappLink(c.whatsapp, `${ar || en}`);
             const external = href.startsWith('https://wa.me');
             return html`<a class="card" href=${href || '#'} target=${external ? '_blank' : '_self'} rel="noopener">
